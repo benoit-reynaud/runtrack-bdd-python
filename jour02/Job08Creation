@@ -1,0 +1,13 @@
+CREATE DATABASE zoo;
+
+USE zoo;
+
+CREATE TABLE animal (
+  id_animal INT AUTO_INCREMENT PRIMARY KEY,
+  nom VARCHAR(255),
+  race VARCHAR(255),
+  id_cage INT,
+  date_naissance DATE,
+  pays_origine VARCHAR(255)
+);
+
